@@ -51,13 +51,22 @@ function App() {
 
 function Home() {
   return (
-    <div className="content">
-      <h1>Home Page</h1>
-      <p>Welcome to my website!</p>
+    <div className="home-container">
+      <div className="subpage subpage1">
+        <h2>Subpage 1</h2>
+        <p>This is the content of subpage 1.</p>
+      </div>
+      <div className="subpage subpage2">
+        <h2>Subpage 2</h2>
+        <p>This is the content of subpage 2.</p>
+      </div>
+      <div className="subpage subpage3">
+        <h2>Subpage 3</h2>
+        <p>This is the content of subpage 3.</p>
+      </div>
     </div>
   );
 }
-
 function About() {
   return (
     <div className="content">
